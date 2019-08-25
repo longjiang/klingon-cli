@@ -31,7 +31,13 @@
             </p>
             <ol>
               <li>
-                qpla
+                Just type in the above text input field, and Klingon letters
+                will show up on top.
+              </li>
+              <li>
+                If you see squares instead of Klingon letters, download the
+                <a href="http://www.evertype.com/fonts/tlh/">pIqaD</a> font
+                first.
               </li>
             </ol>
           </div>

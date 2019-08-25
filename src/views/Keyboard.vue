@@ -274,6 +274,7 @@ export default {
       }
       klingon = klingon.replace(/[,;:]/g, '')
       klingon = klingon.replace(/[!?.]/g, '')
+      klingon = klingon.replace(/[ʼ-]/g, '')
       return klingon
     }
   }

@@ -1,4 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.css'
+import '@/assets/css/klingonzerotohero.css'
 import Vue from 'vue'
 import KlingonZeroToHero from './KlingonZeroToHero'
 

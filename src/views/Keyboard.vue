@@ -4,42 +4,12 @@
       <div class="row">
         <div class="col-md-8">
           <h1 class="mb-5">Klingon Keyboard</h1>
-          <div class="jumbotron bg-warning p-4 text-dark">
-            <b>Important:</b> To use the keyboard, you need to first download and install the
-            <a href="http://www.evertype.com/fonts/tlh/">pIqaD font</a> first.
-          </div>
-          <div v-html="klingon" class="klingon mb-3"></div>
-          <textarea
-            cols="30"
-            rows="10"
-            class="form-control mb-5"
-            v-model="roman"
-          ></textarea>
-          <h5>Some phrases to try out</h5>
-          <p>Copy and paste these phrases and see the conversion.</p>
-          <ul>
-            <li>
-              DaH mojaq-mey-vam DI-vuS-nIS-beʼ ʼeʼ vI-Har<br />I believe that we
-              do not need to limit these suffixes now.
-            </li>
-            <li>tlhIngan Hol Dajatlhʼaʼ?<br />Do you speak Klingon?</li>
-            <li>jIyajbeʼ.<br />I don't understand.</li>
-            <li>Dochvetlh vISoplaHbeʼ.<br />I can't eat that thing.</li>
-            <li>bIlughbeʼ.<br />You are wrong.</li>
-            <li>
-              bortaS bIr jabluʼDIʼ reH QaQquʼ nayʼ.<br />Revenge is a dish best
-              served cold. (lit: When cold revenge is served, the dish is always
-              very good)
-            </li>
-            <li>HeghluʼmeH QaQ jajvam.<br />Today is a good day to die.</li>
-          </ul>
           <p>
             For beginner learners of
-            <a href="https://en.wikipedia.org/wiki/Klingon_language">Klingon</a
-            >, sometimes it's very difficult to type the
-            <a href="https://en.wikipedia.org/wiki/Klingon_scripts"
-              >Klingon script</a
-            >, given its numerous subtly differnt sounds and letter-combining
+            <a href="https://en.wikipedia.org/wiki/Klingon_language">Klingon</a>, sometimes it's very difficult to type the
+            <a
+              href="https://en.wikipedia.org/wiki/Klingon_scripts"
+            >Klingon script</a>, given its numerous subtly differnt sounds and letter-combining
             rules.
           </p>
           <p>
@@ -47,10 +17,10 @@
             <b>"Klingon Keyboard"</b> so you can type right here on this web
             page.
           </p>
+          <div v-html="klingon" class="klingon mb-4 p-4 shadow rounded"></div>
+          <textarea cols="30" rows="10" class="form-control mb-5" v-model="roman"></textarea>
           <div class="mt-2 mb-4 bg-light p-4 shadow rounded">
-            <p>
-              How to use:
-            </p>
+            <p>How to use:</p>
             <ol>
               <li>
                 Just type in the above text input field, and Klingon letters
@@ -58,15 +28,54 @@
               </li>
               <li>
                 If you see squares instead of Klingon letters, download the
-                <a href="http://www.evertype.com/fonts/tlh/">pIqaD</a> font
+                <a
+                  href="http://www.evertype.com/fonts/tlh/"
+                >pIqaD</a> font
                 first.
               </li>
             </ol>
           </div>
+          <h5>Some phrases to try out</h5>
+          <p>Copy and paste these phrases and see the conversion.</p>
+          <ul>
+            <li>
+              DaH mojaq-mey-vam DI-vuS-nIS-beʼ ʼeʼ vI-Har
+              <br />I believe that we
+              do not need to limit these suffixes now.
+            </li>
+            <li>
+              tlhIngan Hol Dajatlhʼaʼ?
+              <br />Do you speak Klingon?
+            </li>
+            <li>
+              jIyajbeʼ.
+              <br />I don't understand.
+            </li>
+            <li>
+              Dochvetlh vISoplaHbeʼ.
+              <br />I can't eat that thing.
+            </li>
+            <li>
+              bIlughbeʼ.
+              <br />You are wrong.
+            </li>
+            <li>
+              bortaS bIr jabluʼDIʼ reH QaQquʼ nayʼ.
+              <br />Revenge is a dish best
+              served cold. (lit: When cold revenge is served, the dish is always
+              very good)
+            </li>
+            <li>
+              HeghluʼmeH QaQ jajvam.
+              <br />Today is a good day to die.
+            </li>
+          </ul>
           <p class="mt-4">
             The Klingon characters are displayed with private Unicode
             characters. To see them properly, download and install the
-            <a href="http://www.evertype.com/fonts/tlh/">pIqaD</a> font.
+            <a
+              href="http://www.evertype.com/fonts/tlh/"
+            >pIqaD</a> font.
           </p>
         </div>
       </div>
@@ -280,10 +289,3 @@ export default {
   }
 }
 </script>
-
-<style scoped>
-.klingon {
-  font-family: Constructium, Unifont CSUR, Klingon pIqaD HaSta, Code2000, Horta;
-  font-size: 2rem;
-}
-</style>

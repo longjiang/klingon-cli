@@ -3,23 +3,20 @@
     <div class="container mt-5 mb-5">
       <div class="row">
         <div class="col-md-8">
-          <h1 class="mb-5">Klingon Romanization Bookmarklet</h1>
+          <h1 class="mb-5">Klingon Keyboard</h1>
           <p>
-            For beginner learners of Klingon, sometimes it's very difficult
-            reading the
-            <a href="https://en.wikipedia.org/wiki/Devanagari"
-              >Devanagari script</a
+            For beginner learners of
+            <a href="https://en.wikipedia.org/wiki/Klingon_language">Klingon</a
+            >, sometimes it's very difficult to type the
+            <a href="https://en.wikipedia.org/wiki/Klingon_scripts"
+              >Klingon script</a
             >, given its numerous subtly differnt sounds and letter-combining
             rules.
           </p>
           <p>
             For this reason, we created the
-            <b>"Annotate Klingon" Bookmarklet</b>. (<a
-              href="https://en.wikipedia.org/wiki/Bookmarklet"
-              target="_blank"
-              >What's a bookmarklet?
-              <font-awesome-icon icon="external-link-alt" /> </a
-            >)
+            <b>"Klingon Keyboard"</b> so you can type right here on this web
+            page.
           </p>
           <div class="mt-2 mb-4 bg-light p-4 shadow rounded">
             <p>
@@ -27,40 +24,14 @@
             </p>
             <ol>
               <li>
-                <b>drag</b> the button below to your Desktoip browser's
-                <b>bookmark bar:</b><br />
-                <a :href="bookmarkletURL" class="btn btn-primary mt-2 mb-2"
-                  >Annotate Klingon</a
-                >
-              </li>
-              <li>
-                Once installed, you can go to a Klingon webpage. For example,
-                <a
-                  href="https://www.bhaskar.com/international/news/pm-narendra-modi-bhutan-visit-news-and-updates-01620015.html"
-                  target="_blank"
-                  >this article from bhaskar.com
-                  <font-awesome-icon icon="external-link-alt"/></a
-                >.
-              </li>
-              <li>
-                After the page loads, click the "Annotate Klingon" bookmarklet in
-                your bookmarks bar.
-              </li>
-              <li>
-                The program puts romanized transliteration on top of each Klingon
-                word.
+                qpla
               </li>
             </ol>
           </div>
           <p class="mt-4">
-            The transliteration tries to follow the
-            <a
-              href="https://en.wikipedia.org/wiki/International_Alphabet_of_Sanskrit_Transliteration"
-              >IAST standard</a
-            >
-            (International Alphabet of Sanskirt Transliteration)
-            <em>except</em> we remove the final vowel “a” as the “a” is almost
-            never pronounced.
+            The Klingon characters are displayed with private Unicode
+            characters. To see them properly, download and install the
+            <a href="http://www.evertype.com/fonts/tlh/">pIqaD</a> font.
           </p>
         </div>
       </div>

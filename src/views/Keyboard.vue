@@ -35,12 +35,15 @@
               first.
             </li>
           </ol>
-          <h5>Some phrases to try out</h5>
+          <h5 class="mt-5">Some phrases to try out</h5>
           <p>Copy and paste these phrases and see the conversion.</p>
           <dl v-for="phrase in phrases" class="pl-4">
             <dt>
               {{ phrase.klingon }}
-              <button class="btn btn-light p-1" @click="roman = phrase.klingon">Use</button>
+              <button
+                class="btn btn-light p-1"
+                @click="roman = phrase.klingon"
+              >Use</button>
             </dt>
             <dd>{{ phrase.english }}</dd>
           </dl>
@@ -52,6 +55,23 @@
               href="http://www.evertype.com/fonts/tlh/"
             >pIqaD</a> font.
           </p>
+          <h5 class="mt-5 mb-5">Conversion Chart</h5>
+          <table class="table">
+            <thead>
+              <tr>
+                <th>Klingon</th>
+                <th>Roman</th>
+                <th>IPA</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr v-for="char in conv">
+                <td class="klingon">{{ char.klingon }}</td>
+                <td>{{ char.roman }}</td>
+                <td>{{ char.ipa }}</td>
+              </tr>
+            </tbody>
+          </table>
         </div>
       </div>
     </div>

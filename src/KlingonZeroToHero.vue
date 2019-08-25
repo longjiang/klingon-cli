@@ -4,7 +4,7 @@
       <div class="container">
         <div class="row">
           <div class="col-sm-12">
-            <img src="@/assets/img/logo-tlh-zth-light.png" alt="Klingon Zero to Hero" class="logo" />
+            <img src="/img/logo-tlh-zth-light.png" alt="Klingon Zero to Hero" class="logo" />
           </div>
         </div>
       </div>
@@ -19,28 +19,28 @@
           <div class="col-sm-12">
             <a href="/" class="mr-4">
               <img
-                src="@/assets/img/logo-tlh-zth-light.png"
+                src="/img/logo-tlh-zth-light.png"
                 alt="Klingon Zero to Hero"
                 class="logo-footer"
               />
             </a>
             <a href="https://chinesezerotohero.com" target="_blank" class="mr-4">
               <img
-                src="@/assets/img/logo-zh-zth-light.png"
+                src="/img/logo-zh-zth-light.png"
                 alt="Chinese Zero to Hero"
                 class="logo-footer"
               />
             </a>
             <a href="https://yingyuyingxiong.teachable.com" class="mr-4" target="_blank">
               <img
-                src="@/assets/img/logo-en-zth-light.png"
+                src="/img/logo-en-zth-light.png"
                 alt="English Zero to Hero"
                 class="logo-footer"
               />
             </a>
             <a href="https://ru.zerotohero.ca" class="mr-4" target="_blank">
               <img
-                src="@/assets/img/logo-ru-zth-light.png"
+                src="/img/logo-ru-zth-light.png"
                 alt="Russian Zero to Hero"
                 class="logo-footer"
               />

@@ -62,18 +62,6 @@
             <em>except</em> we remove the final vowel “a” as the “a” is almost
             never pronounced.
           </p>
-          <h5>Before:</h5>
-          <img
-            src="@/assets/img/klingon-annotation-bookmarklet-before.png"
-            class="img-fluid shadow rounded mt-2 mb-4"
-            alt="Screenshot before"
-          />
-          <h5>After:</h5>
-          <img
-            src="@/assets/img/klingon-annotation-bookmarklet-after.png"
-            class="img-fluid shadow rounded mt-2 mb-2"
-            alt="Screenshot after"
-          />
         </div>
       </div>
     </div>

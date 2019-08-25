@@ -8,18 +8,18 @@ export default new Router({
     {
       path: '/',
       name: 'home',
-      redirect: '/bookmarklet'
+      redirect: '/keyboard'
     },
     {
-      path: '/bookmarklet',
-      name: 'bookmarklet',
-      component: () => import('./views/Bookmarklet.vue'),
+      path: '/keyboard',
+      name: 'keyboard',
+      component: () => import('./views/Keyboard.vue'),
       meta: {
-        title: 'Klingon Romanization (Transliteration/Transcription) Bookmarklet | Klingon Zero to Hero',
+        title: 'Klingon Keyboard | Klingon Zero to Hero',
         metaTags: [
           {
             name: 'description',
-            content: 'Connect with various Chinese-learning communities.'
+            content: 'Type Klingon with the Klingon script.'
           }
         ]
       }

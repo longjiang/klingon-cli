@@ -4,6 +4,10 @@
       <div class="row">
         <div class="col-md-8">
           <h1 class="mb-5">Klingon Keyboard</h1>
+          <div class="jumbotron bg-warning p-4 text-dark">
+            <b>Important:</b> To use the keyboard, you need to first download and install the
+            <a href="http://www.evertype.com/fonts/tlh/">pIqaD font</a> first.
+          </div>
           <div v-html="klingon" class="klingon mb-3"></div>
           <textarea
             cols="30"
@@ -14,11 +18,6 @@
           <h5>Some phrases to try out</h5>
           <p>Copy and paste these phrases and see the conversion.</p>
           <ul>
-            <li>
-              jang vIDa je due luq. ʼach ghotvamʼeʼ QIʼyaH-devolved qaS<br />The
-              minister will reply in due course. However this is a non-devolved
-              matter
-            </li>
             <li>
               DaH mojaq-mey-vam DI-vuS-nIS-beʼ ʼeʼ vI-Har<br />I believe that we
               do not need to limit these suffixes now.
@@ -210,6 +209,56 @@ export default {
           roman: 'ʼ',
           klingon: '',
           ipa: 'ʔ'
+        },
+        {
+          roman: 0,
+          klingon: '',
+          ipa: ''
+        },
+        {
+          roman: 1,
+          klingon: '',
+          ipa: ''
+        },
+        {
+          roman: 2,
+          klingon: '',
+          ipa: ''
+        },
+        {
+          roman: 3,
+          klingon: '',
+          ipa: ''
+        },
+        {
+          roman: 4,
+          klingon: '',
+          ipa: ''
+        },
+        {
+          roman: 5,
+          klingon: '',
+          ipa: ''
+        },
+        {
+          roman: 6,
+          klingon: '',
+          ipa: ''
+        },
+        {
+          roman: 7,
+          klingon: '',
+          ipa: ''
+        },
+        {
+          roman: 8,
+          klingon: '',
+          ipa: ''
+        },
+        {
+          roman: 9,
+          klingon: '',
+          ipa: ''
         }
       ]
     }
@@ -223,6 +272,8 @@ export default {
       for (let char of this.conv) {
         klingon = klingon.replace(new RegExp(char.roman, 'g'), char.klingon)
       }
+      klingon = klingon.replace(/[,;:]/g, '')
+      klingon = klingon.replace(/[!?.]/g, '')
       return klingon
     }
   }

@@ -11,6 +11,29 @@
             class="form-control mb-5"
             v-model="roman"
           ></textarea>
+          <h5>Some phrases to try out</h5>
+          <p>Copy and paste these phrases and see the conversion.</p>
+          <ul>
+            <li>
+              jang vIDa je due luq. ʼach ghotvamʼeʼ QIʼyaH-devolved qaS<br />The
+              minister will reply in due course. However this is a non-devolved
+              matter
+            </li>
+            <li>
+              DaH mojaq-mey-vam DI-vuS-nIS-beʼ ʼeʼ vI-Har<br />I believe that we
+              do not need to limit these suffixes now.
+            </li>
+            <li>tlhIngan Hol Dajatlhʼaʼ?<br />Do you speak Klingon?</li>
+            <li>jIyajbeʼ.<br />I don't understand.</li>
+            <li>Dochvetlh vISoplaHbeʼ.<br />I can't eat that thing.</li>
+            <li>bIlughbeʼ.<br />You are wrong.</li>
+            <li>
+              bortaS bIr jabluʼDIʼ reH QaQquʼ nayʼ.<br />Revenge is a dish best
+              served cold. (lit: When cold revenge is served, the dish is always
+              very good)
+            </li>
+            <li>HeghluʼmeH QaQ jajvam.<br />Today is a good day to die.</li>
+          </ul>
           <p>
             For beginner learners of
             <a href="https://en.wikipedia.org/wiki/Klingon_language">Klingon</a

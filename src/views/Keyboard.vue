@@ -303,7 +303,7 @@ export default {
       }
       klingon = klingon.replace(/[,;:]/g, '')
       klingon = klingon.replace(/[!?.]/g, '')
-      klingon = klingon.replace(/'/g, '')
+      klingon = klingon.replace(/[‘’'“”"]/g, '')
       klingon = klingon.replace(/[-]/g, '')
       return klingon
     }
